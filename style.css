@@ -8,7 +8,9 @@
   --bg-soft: #f7f8fc;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -470,8 +472,15 @@ section h2 {
 }
 
 /* Smartphone */
-
 @media (max-width: 430px) {
+  .header-inner,
+  .footer-inner,
+  .container,
+  .for-students-inner,
+  .research-grid {
+    max-width: 100%;
+  }
+
 
   .site-header {
     padding: 8px 0;
@@ -486,6 +495,7 @@ section h2 {
 
   .site-title {
     flex: 1;
+    min-width: 0;
   }
 
   .site-title h1 {
@@ -623,4 +633,8 @@ section h2 {
     width: 100%;
     height: auto;
   }  
+}
+
+* {
+  outline: 1px solid red;
 }
