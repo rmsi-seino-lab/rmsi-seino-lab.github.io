@@ -1,30 +1,49 @@
---- 
-layout: default-en
-title: Home 
-lang_url: /Domestic_journal.html 
+---
+layout: default-ja
+title: Domestic Journal Papers
+lang_url: /en/Domestic_journal.html
 ---
 
 <main class="container">
 
-    <section class="page-title">
-        <h2>Publications</h2>
-    </section>
+  <section>
+    <h2>Domestic Journal Papers</h2>
 
-    <section class="publication-section">
-        <h2>Domestic Journal Papers</h2>
+    {% assign papers = site.publications
+      | where: "type", "domestic_journal"
+      | where: "status", "published"
+      | where: "lang", "en"
+      | sort: "date"
+      | reverse %}
 
-        <ol class="publication-list">
+    <ol class="publication-list">
+      {% for paper in papers %}
         <li>
-            <strong>情野 瑛</strong>, 衣川 潤, 若林 勇太, 伊丹 翔一, ブーラナアモン タナパ, 小菅 一弘,
-            段差および階段に設置可能な車いす用昇降支援システム，
-            <em>日本機械学会論文集</em>，
-            85 巻, 874 号, p. 19-00063，2019.
+          {% for author in paper.authors %}
+            {{ author.name }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %},
+          “{{ paper.title }},”
+          <i>{{ paper.venue }}</i>{% if paper.pages %},
+          pp. {{ paper.pages }}{% endif %},
+          {{ paper.year }}.
 
-            <span class="pub-links">
-                <a href="https://doi.org/10.1299/transjsme.19-00063" target="_blank">[DOI]</a>
-            </span>
+          {% if paper.doi %}
+            <a href="https://doi.org/{{ paper.doi }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              [DOI]
+            </a>
+          {% elsif paper.url %}
+            <a href="{{ paper.url }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              [Link]
+            </a>
+          {% endif %}
         </li>
-        </ol>
-    </section>
+      {% endfor %}
+    </ol>
+
+  </section>
 
 </main>
