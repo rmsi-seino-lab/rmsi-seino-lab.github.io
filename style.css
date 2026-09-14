@@ -465,7 +465,7 @@ section h2 {
 
 /* Smartphone */
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
 
   .site-header {
     padding: 8px 0;
@@ -549,4 +549,72 @@ section h2 {
     flex-shrink: 0;
     font-size: 0.75rem;
   }
+
+  /* footer */
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 15px;
+  }
+
+  .footer-left {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-info {
+    width: 100%;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+
+  .footer-lab {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .footer-lab p,
+  .footer-info p {
+    margin: 4px 0;
+  }
+
+  /* For students */
+  .for-students-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .student-button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Research highlight*/
+  .research-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .research-card,
+  .research-card-link {
+    width: 100%;
+  }
+
+  .research-card-image img {
+    width: 100%;
+    height: auto;
+  }  
 }
