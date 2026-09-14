@@ -472,7 +472,7 @@ section h2 {
 }
 
 /* Smartphone */
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .header-inner,
   .footer-inner,
   .container,
