@@ -2,7 +2,7 @@
 # layout: paper
 title: "U字吊り式円柱昇降機構の車輪のパラメータが昇降動作に及ぼす影響の評価"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference

@@ -2,7 +2,7 @@
 # layout: paper
 title: "グライダー型小型水中ロボットのための差動ネジ駆動機構を用いた重心移動装置の開発 ～基本構造の検討と試作～"
 
-date: 
+date: 2019-11-15
 year: 2019
 
 type: domestic_conference

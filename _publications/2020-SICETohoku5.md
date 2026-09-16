@@ -2,8 +2,8 @@
 # layout: paper
 title: "原子炉建屋内調査用6脚ロボットの不整地踏破性向上のための機構の検討　～3次元CADを用いた動作解析～"
 
-date: 
-year: 
+date: 2020-12-02
+year: 2020
 
 type: domestic_conference
 status: published

@@ -2,7 +2,7 @@
 # layout: paper
 title: "MHIとCNNによる静止画像を用いた動的ジェスチャ認識"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference

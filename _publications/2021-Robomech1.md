@@ -2,7 +2,7 @@
 # layout: paper
 title: "足こぎ車いすの座面位置・姿勢の変更による操作者の駆動力への影響"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference

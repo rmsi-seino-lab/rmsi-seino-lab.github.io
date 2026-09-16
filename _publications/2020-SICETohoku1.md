@@ -2,7 +2,7 @@
 # layout: paper
 title: "コーティング式触覚センサにおける接触位置推定法の改良"
 
-date: 
+date: 2020-03-16
 year: 2020
 
 type: domestic_conference

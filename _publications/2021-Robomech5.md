@@ -2,7 +2,7 @@
 # layout: paper
 title: "原子炉内部調査用モニタリングアームの開発 －コンパクトなアーム巻取装置の試作と実アーム関節の非接触温度推定－"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference

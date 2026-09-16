@@ -2,7 +2,7 @@
 # layout: paper
 title: "垂直降下型湖底泥サンプリング用小型水中ロボットの要素技術の開発　～水中モータを用いたスラスタモジュールの改良～"
 
-date: 
+date: 2020-03-16
 year: 2020
 
 type: domestic_conference

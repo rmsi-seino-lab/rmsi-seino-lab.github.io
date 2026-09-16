@@ -2,7 +2,7 @@
 # layout: paper
 title: "コーティング式触覚センサの開発 -逆伝達関数で増幅される高周波ノイズの抑制による精度の向上-"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference

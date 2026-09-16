@@ -2,7 +2,7 @@
 # layout: paper
 title: "湖沼調査用小型水中ロボットの開発 ～グライダー型の小型模型機の試作と基本特性の確認"
 
-date: 
+date: 2020-03-16
 year: 2020
 
 type: domestic_conference

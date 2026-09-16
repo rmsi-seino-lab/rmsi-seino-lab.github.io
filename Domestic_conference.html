@@ -22,7 +22,7 @@ lang_url: /en/Domestic_conference.html
 
     <ol class="publication-list">
       {% for paper in papers %}
-        <li>
+        <li value="{{ forloop.rindex }}">
           {% for author in paper.authors %}
             {{ author.name }}{% unless forloop.last %}, {% endunless %}
           {% endfor %},
@@ -30,20 +30,6 @@ lang_url: /en/Domestic_conference.html
           <i>{{ paper.venue }}</i>{% if paper.pages %},
           pp. {{ paper.pages }}{% endif %},
           {{ paper.year }}.
-
-          {% if paper.doi %}
-            <a href="https://doi.org/{{ paper.doi }}"
-               target="_blank"
-               rel="noopener noreferrer">
-              [DOI]
-            </a>
-          {% elsif paper.url %}
-            <a href="{{ paper.url }}"
-               target="_blank"
-               rel="noopener noreferrer">
-              [Link]
-            </a>
-          {% endif %}
         </li>
       {% endfor %}
     </ol>

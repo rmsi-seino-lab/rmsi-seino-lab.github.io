@@ -2,7 +2,7 @@
 # layout: paper
 title: "U字吊りに着想を得た車輪型円柱昇降機構の提案　～機構の試作と昇降動作の確認～"
 
-date: 
+date: 2020-12-02
 year: 2020
 
 type: domestic_conference

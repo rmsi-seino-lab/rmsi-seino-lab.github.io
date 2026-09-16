@@ -2,7 +2,7 @@
 # layout: paper
 title: "高分解能環境認識のためのフェーズドアレイ送信機とMUSIC法を組み合わせた空中超音波センサシステム"
 
-date: 
+date: 2021-6-6
 year: 2021
 
 type: domestic_conference
