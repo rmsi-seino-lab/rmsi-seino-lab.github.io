@@ -8,6 +8,7 @@ year: 2016
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: true
 
 venue: "第21回ロボティクスシンポジア"
 location: "長崎"

@@ -8,6 +8,7 @@ year: 2015
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: true
 
 venue: "第20回ロボティクスシンポジア"
 location: "軽井沢"
