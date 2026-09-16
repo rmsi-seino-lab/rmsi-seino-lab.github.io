@@ -8,6 +8,7 @@ year: 2020
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: false
 
 venue: "ロボティクス・メカトロニクス講演会2020"
 location: "石川県産業展示館3号館（オンライン開催）"

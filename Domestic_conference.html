@@ -30,6 +30,10 @@ lang_url: /en/Domestic_conference.html
           <i>{{ paper.venue }}</i>{% if paper.pages %},
           pp. {{ paper.pages }}{% endif %},
           {{ paper.year }}.
+
+          {% if paper.peer_reviewed %}
+          <span class="peer-reviewed">[査読あり]</span>
+          {% endif %}
         </li>
       {% endfor %}
     </ol>

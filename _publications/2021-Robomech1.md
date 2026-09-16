@@ -8,6 +8,7 @@ year: 2021
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: false
 
 venue: "ロボティクス・メカトロニクス講演会2021"
 location: "オンライン開催"

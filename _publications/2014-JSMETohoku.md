@@ -8,6 +8,7 @@ year: 2014
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: false
 
 venue: "日本機械学会東北学生会第44回学生員卒業研究発表講演会"
 location: ""

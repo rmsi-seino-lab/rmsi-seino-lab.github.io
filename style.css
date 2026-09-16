@@ -339,6 +339,12 @@ section h2 {
   text-decoration: underline;
 }
 
+.peer-reviewed {
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
 /* Page: teaching */
 
 .teaching-section {

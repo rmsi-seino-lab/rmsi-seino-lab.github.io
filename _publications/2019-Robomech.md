@@ -8,6 +8,7 @@ year: 2019
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: false
 
 venue: "ロボティクス・メカトロニクス講演会2019"
 location: "広島国際会議場"

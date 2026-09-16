@@ -8,6 +8,7 @@ year: 2020
 type: domestic_conference
 status: published
 lang: ja
+peer_reviewed: false
 
 venue: "計測自動制御学会東北支部第328回研究集会"
 location: "東北大学(オンライン開催)"
