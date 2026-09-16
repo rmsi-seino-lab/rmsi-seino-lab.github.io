@@ -10,21 +10,44 @@ lang_url: /en/Domestic_conference.html
         <h2>Publications</h2>
     </section>
 
-    <section class="page-title">
-        <h2>Publications</h2>
-    </section>
+  <section>
+    <h2>Domestic Journal Papers</h2>
 
-    <section class="publication-section">
-        <h2>Domestic Conference Papers</h2>
+    {% assign papers = site.publications
+      | where: "type", "domestic_conference"
+      | where: "status", "published"
+      | where: "lang", "ja"
+      | sort: "date"
+      | reverse %}
 
-        <ol class="publication-list">
+    <ol class="publication-list">
+      {% for paper in papers %}
         <li>
-            西出航陽, <strong>情野瑛</strong>, 高橋隆行,
-            垂直降下型湖底泥サンプリング用小型水中ロボットの開発 -試作機の開発と基本動作の確認-，
-            第39回日本ロボット学会学術講演会，
-            2025.
+          {% for author in paper.authors %}
+            {{ author.name }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %},
+          “{{ paper.title }},”
+          <i>{{ paper.venue }}</i>{% if paper.pages %},
+          pp. {{ paper.pages }}{% endif %},
+          {{ paper.year }}.
+
+          {% if paper.doi %}
+            <a href="https://doi.org/{{ paper.doi }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              [DOI]
+            </a>
+          {% elsif paper.url %}
+            <a href="{{ paper.url }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              [Link]
+            </a>
+          {% endif %}
         </li>
-        </ol>
-    </section>
+      {% endfor %}
+    </ol>
+
+  </section>
 
 </main>
